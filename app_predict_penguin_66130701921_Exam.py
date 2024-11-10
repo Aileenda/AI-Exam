@@ -14,7 +14,7 @@ island = st.selectbox('Island', island_encoder.classes_)
 culmen_length = st.number_input('Culmen Length (mm)', min_value=0.0, max_value=100.0, value=37.0, step=0.1)
 culmen_depth = st.number_input('Culmen Depth (mm)', min_value=0.0, max_value=100.0, value=19.3, step=0.1)
 flipper_length = st.number_input('Flipper Length (mm)', min_value=0.0, max_value=250.0, value=192.3, step=0.1)
-body_mass = st.number_input('Body Mass (g)', min_value=0.0, max_value=8000, value=3750.0, step=10.0)
+body_mass = st.number_input('Body Mass (g)', min_value=0.0, max_value=8000.0, value=3750.0, step=10.0)
 sex = st.selectbox('Sex',  ['MALE','FEMALE'])
 
 # Preparing input for prediction
